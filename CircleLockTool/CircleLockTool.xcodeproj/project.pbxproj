@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503BEEBF1CC472B20055603B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEEBE1CC472B20055603B /* main.m */; };
+		503BEEC21CC472B20055603B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEEC11CC472B20055603B /* AppDelegate.m */; };
+		503BEEC51CC472B20055603B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEEC41CC472B20055603B /* ViewController.m */; };
+		503BEEC81CC472B20055603B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503BEEC61CC472B20055603B /* Main.storyboard */; };
+		503BEECA1CC472B20055603B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503BEEC91CC472B20055603B /* Assets.xcassets */; };
+		503BEECD1CC472B20055603B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503BEECB1CC472B20055603B /* LaunchScreen.storyboard */; };
+		503BEED81CC472B20055603B /* CircleLockToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEED71CC472B20055603B /* CircleLockToolTests.m */; };
+		503BEEE31CC472B30055603B /* CircleLockToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEEE21CC472B30055603B /* CircleLockToolUITests.m */; };
+		503BEEF21CC472C60055603B /* CircleLockTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 503BEEF11CC472C60055603B /* CircleLockTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503BEED41CC472B20055603B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503BEEB21CC472B20055603B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503BEEB91CC472B20055603B;
+			remoteInfo = CircleLockTool;
+		};
+		503BEEDF1CC472B20055603B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503BEEB21CC472B20055603B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503BEEB91CC472B20055603B;
+			remoteInfo = CircleLockTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		503BEEBA1CC472B20055603B /* CircleLockTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleLockTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503BEEBE1CC472B20055603B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		503BEEC01CC472B20055603B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		503BEEC11CC472B20055603B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		503BEEC31CC472B20055603B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		503BEEC41CC472B20055603B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		503BEEC71CC472B20055603B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		503BEEC91CC472B20055603B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		503BEECC1CC472B20055603B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		503BEECE1CC472B20055603B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503BEED31CC472B20055603B /* CircleLockToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLockToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503BEED71CC472B20055603B /* CircleLockToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLockToolTests.m; sourceTree = "<group>"; };
+		503BEED91CC472B20055603B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503BEEDE1CC472B20055603B /* CircleLockToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLockToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503BEEE21CC472B30055603B /* CircleLockToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLockToolUITests.m; sourceTree = "<group>"; };
+		503BEEE41CC472B30055603B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503BEEF01CC472C60055603B /* CircleLockTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLockTool.h; sourceTree = "<group>"; };
+		503BEEF11CC472C60055603B /* CircleLockTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLockTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503BEEB71CC472B20055603B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEED01CC472B20055603B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEEDB1CC472B20055603B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503BEEB11CC472B20055603B = {
+			isa = PBXGroup;
+			children = (
+				503BEEBC1CC472B20055603B /* CircleLockTool */,
+				503BEED61CC472B20055603B /* CircleLockToolTests */,
+				503BEEE11CC472B20055603B /* CircleLockToolUITests */,
+				503BEEBB1CC472B20055603B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		503BEEBB1CC472B20055603B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503BEEBA1CC472B20055603B /* CircleLockTool.app */,
+				503BEED31CC472B20055603B /* CircleLockToolTests.xctest */,
+				503BEEDE1CC472B20055603B /* CircleLockToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503BEEBC1CC472B20055603B /* CircleLockTool */ = {
+			isa = PBXGroup;
+			children = (
+				503BEEC01CC472B20055603B /* AppDelegate.h */,
+				503BEEC11CC472B20055603B /* AppDelegate.m */,
+				503BEEC31CC472B20055603B /* ViewController.h */,
+				503BEEC41CC472B20055603B /* ViewController.m */,
+				503BEEF01CC472C60055603B /* CircleLockTool.h */,
+				503BEEF11CC472C60055603B /* CircleLockTool.m */,
+				503BEEC61CC472B20055603B /* Main.storyboard */,
+				503BEEC91CC472B20055603B /* Assets.xcassets */,
+				503BEECB1CC472B20055603B /* LaunchScreen.storyboard */,
+				503BEECE1CC472B20055603B /* Info.plist */,
+				503BEEBD1CC472B20055603B /* Supporting Files */,
+			);
+			path = CircleLockTool;
+			sourceTree = "<group>";
+		};
+		503BEEBD1CC472B20055603B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				503BEEBE1CC472B20055603B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		503BEED61CC472B20055603B /* CircleLockToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				503BEED71CC472B20055603B /* CircleLockToolTests.m */,
+				503BEED91CC472B20055603B /* Info.plist */,
+			);
+			path = CircleLockToolTests;
+			sourceTree = "<group>";
+		};
+		503BEEE11CC472B20055603B /* CircleLockToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				503BEEE21CC472B30055603B /* CircleLockToolUITests.m */,
+				503BEEE41CC472B30055603B /* Info.plist */,
+			);
+			path = CircleLockToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503BEEB91CC472B20055603B /* CircleLockTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503BEEE71CC472B30055603B /* Build configuration list for PBXNativeTarget "CircleLockTool" */;
+			buildPhases = (
+				503BEEB61CC472B20055603B /* Sources */,
+				503BEEB71CC472B20055603B /* Frameworks */,
+				503BEEB81CC472B20055603B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleLockTool;
+			productName = CircleLockTool;
+			productReference = 503BEEBA1CC472B20055603B /* CircleLockTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		503BEED21CC472B20055603B /* CircleLockToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503BEEEA1CC472B30055603B /* Build configuration list for PBXNativeTarget "CircleLockToolTests" */;
+			buildPhases = (
+				503BEECF1CC472B20055603B /* Sources */,
+				503BEED01CC472B20055603B /* Frameworks */,
+				503BEED11CC472B20055603B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503BEED51CC472B20055603B /* PBXTargetDependency */,
+			);
+			name = CircleLockToolTests;
+			productName = CircleLockToolTests;
+			productReference = 503BEED31CC472B20055603B /* CircleLockToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		503BEEDD1CC472B20055603B /* CircleLockToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503BEEED1CC472B30055603B /* Build configuration list for PBXNativeTarget "CircleLockToolUITests" */;
+			buildPhases = (
+				503BEEDA1CC472B20055603B /* Sources */,
+				503BEEDB1CC472B20055603B /* Frameworks */,
+				503BEEDC1CC472B20055603B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503BEEE01CC472B20055603B /* PBXTargetDependency */,
+			);
+			name = CircleLockToolUITests;
+			productName = CircleLockToolUITests;
+			productReference = 503BEEDE1CC472B20055603B /* CircleLockToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503BEEB21CC472B20055603B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xingbida;
+				TargetAttributes = {
+					503BEEB91CC472B20055603B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					503BEED21CC472B20055603B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 503BEEB91CC472B20055603B;
+					};
+					503BEEDD1CC472B20055603B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 503BEEB91CC472B20055603B;
+					};
+				};
+			};
+			buildConfigurationList = 503BEEB51CC472B20055603B /* Build configuration list for PBXProject "CircleLockTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503BEEB11CC472B20055603B;
+			productRefGroup = 503BEEBB1CC472B20055603B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503BEEB91CC472B20055603B /* CircleLockTool */,
+				503BEED21CC472B20055603B /* CircleLockToolTests */,
+				503BEEDD1CC472B20055603B /* CircleLockToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503BEEB81CC472B20055603B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEECD1CC472B20055603B /* LaunchScreen.storyboard in Resources */,
+				503BEECA1CC472B20055603B /* Assets.xcassets in Resources */,
+				503BEEC81CC472B20055603B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEED11CC472B20055603B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEEDC1CC472B20055603B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503BEEB61CC472B20055603B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEEF21CC472C60055603B /* CircleLockTool.m in Sources */,
+				503BEEC51CC472B20055603B /* ViewController.m in Sources */,
+				503BEEC21CC472B20055603B /* AppDelegate.m in Sources */,
+				503BEEBF1CC472B20055603B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEECF1CC472B20055603B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEED81CC472B20055603B /* CircleLockToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503BEEDA1CC472B20055603B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503BEEE31CC472B30055603B /* CircleLockToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		503BEED51CC472B20055603B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503BEEB91CC472B20055603B /* CircleLockTool */;
+			targetProxy = 503BEED41CC472B20055603B /* PBXContainerItemProxy */;
+		};
+		503BEEE01CC472B20055603B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503BEEB91CC472B20055603B /* CircleLockTool */;
+			targetProxy = 503BEEDF1CC472B20055603B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		503BEEC61CC472B20055603B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503BEEC71CC472B20055603B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		503BEECB1CC472B20055603B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503BEECC1CC472B20055603B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		503BEEE51CC472B30055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		503BEEE61CC472B30055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503BEEE81CC472B30055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleLockTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.CircleLockTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		503BEEE91CC472B30055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleLockTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.CircleLockTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		503BEEEB1CC472B30055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleLockToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.CircleLockToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleLockTool.app/CircleLockTool";
+			};
+			name = Debug;
+		};
+		503BEEEC1CC472B30055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleLockToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.CircleLockToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleLockTool.app/CircleLockTool";
+			};
+			name = Release;
+		};
+		503BEEEE1CC472B30055603B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleLockToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.CircleLockToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleLockTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		503BEEEF1CC472B30055603B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleLockToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingbida.CircleLockToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleLockTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503BEEB51CC472B20055603B /* Build configuration list for PBXProject "CircleLockTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEEE51CC472B30055603B /* Debug */,
+				503BEEE61CC472B30055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503BEEE71CC472B30055603B /* Build configuration list for PBXNativeTarget "CircleLockTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEEE81CC472B30055603B /* Debug */,
+				503BEEE91CC472B30055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		503BEEEA1CC472B30055603B /* Build configuration list for PBXNativeTarget "CircleLockToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEEEB1CC472B30055603B /* Debug */,
+				503BEEEC1CC472B30055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		503BEEED1CC472B30055603B /* Build configuration list for PBXNativeTarget "CircleLockToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503BEEEE1CC472B30055603B /* Debug */,
+				503BEEEF1CC472B30055603B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503BEEB21CC472B20055603B /* Project object */;
+}
